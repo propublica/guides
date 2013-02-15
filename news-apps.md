@@ -1,8 +1,8 @@
 # ProPublica News Apps Manual of Style
 
-This style guide are the typographic and technical best practices used by ProPublica's News Applications desk. Most of the rules here also apply to our online graphics, a category that [has a lot in common](#versus) with news applications. It not meant to be a design spec or a [coding style guide](code.md), though you should probably have both of those.
+This style guide comprises the typographic and technical best practices used by ProPublica's News Applications desk. Most of the rules here also apply to our online graphics, a category that [has a lot in common](#versus) with news applications. It's not meant to be a design spec or a [coding style guide](code.md), though you should probably have both of those.
 
-Remember that overdependence and lawyerly appeals to rules can hamper progress. News apps are a new and dynamic field and rethinking these rules every so often can be a good thing. These are not an excuse to avoid change, and nothing in this document should be taken as a discouragement to be weird. It's just a set of decisions we've decided work really well for us, and that we try to stick to.
+Remember that overdependence on and lawyerly appeals to rules can hamper progress, and that a foolish consistency is the hobgoblin of little minds. News apps are a new and dynamic field and rethinking these rules for your own newsroom is a good thing. These rules are not an excuse to avoid change, and nothing in this document should be taken as a discouragement to be weird. This is just a set of decisions we've decided work really well for us, and that we try to stick to.
 
 Finally, this is a living document. Please feel free to [propose changes](README.md).
 
@@ -10,7 +10,7 @@ Finally, this is a living document. Please feel free to [propose changes](README
 
 The most important thing by far is to be accurate.
 
-A full discussion on how to be sure you're accurate is beyond the scope of this document. Read "[Bulletproofing your data-based stories](http://www.jenster.com/bulletproofing.pdf)." Now.
+A full discussion on how to be sure you're accurate is beyond the scope of this document. Read "[Bulletproofing your data-based stories](data-bulletproofing.md)." Now.
 
 ## Browsers
 
