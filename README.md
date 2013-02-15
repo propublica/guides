@@ -4,7 +4,7 @@
 
 1. [News Apps Style Guide](news-apps.md)
 2. [Coding Manifesto](coding.md)
-3. [Social Tagging Guide](social-tags.md)
+3. [Social Tagging Guide](social-tags.html)
 4. Data Bulletproofing Guide
 
 ## License
