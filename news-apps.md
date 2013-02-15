@@ -66,7 +66,7 @@ When an app's data is refreshed and the corrected data has itself been removed o
 
 ## Data: Singular or Plural?
 
-The word is used as a singular. Say "the data is" and not "the data are," just as you say "bacon is delicious" not "bacon are delicious."
+Use it as a singular. Say "the data is" and not "the data are," just as you say "bacon is delicious" not "bacon are delicious."
 
 ## Geocoding
 
