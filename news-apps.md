@@ -12,6 +12,10 @@ The most important thing by far is to be accurate.
 
 A full discussion on how to be sure you're accurate is beyond the scope of this document. Read "[Bulletproofing your data-based stories](data-bulletproofing.md)." Now.
 
+## Axes
+
+Always label axes except where the label would simply duplicate the headline or top matter.
+
 ## Browsers
 
 Support the current and prior major release of Chrome, Firefox, Internet Explorer and Safari on a rolling basis. If earlier releases represent more than 2.5% of our audience, continue to support them. This varies only slightly from [Google's Policy](http://googleappsupdates.blogspot.ca/2012/09/supporting-modern-browsers-internet.html).
@@ -34,7 +38,7 @@ The byline should list the developers and reporters who made significant contrib
 
 Avoid pie charts, with one exception: Use them to show the relationship between part and whole. Never use a pie chart with more than two elements.
 
-Use a bar chart to show discontuous data or to compare relative values of different categories of data.
+Use a bar chart to show discrete quantities.
 
 Use a stacked bar chart to show the relative values of categories and subcategories of data.
 
@@ -42,9 +46,15 @@ Use a line chart (sometimes called a fever chart) to show continuous variables s
 
 Use a scatterplot to show a correlation or lack thereof between two variables.
 
-Bubble charts are acceptable where the accurate perception of fine differences between the circles is not important (see Maps).
+Bubble charts are acceptable where the accurate perception of fine differences between the circles is not important (see Maps). Circles in bubble charts should vary in area and not diameter or radius.
 
 Avoid 3-D charts at all costs. Human have enough problem perceiving area accurately. Asking them to perceive 3d volume makes matters worse.
+
+Avoid donut charts at all costs.
+
+Don't show interpolated or predicted data without saying you're doing so.
+
+In annual trend data don't include partial years.
 
 ## Colors
 
@@ -52,7 +62,7 @@ When you select colors, check to be sure people with color blindness can read an
 
 Use [Color Brewer](http://colorbrewer2.org/) to select colors when posssible, and not just for maps.
 
-When showing single-vector differences, stick to a single hue and vary lightness.
+When showing differences in rate of a single variable, stick to a single hue and vary value/lightness. For example, don't fade from blue to pink. The one exception is fading from red to green to show "bad" to "good" (and remember to check your reds and greens for color blindness accessibility).
 
 When showing variations in kind, alter hues.
 
@@ -78,17 +88,29 @@ Singular. Say "the data is" and not "the data are," just as you say "bacon is de
 
 The main page of every news app should have a headline.
 
+## Hovers
+
+It's ok to require readers to hover their mouse over an element to see further detail. However, don't use hovers when seeing more than one of them at the same time is needed to understand the app or graphic.
+
+When requiring hovers in blocks of text (as opposed to in a map or graphic), provide a symbol that lets readers know that the hover is available.
+
 ## Interpolated Variables
 
 It's good to write sentences that include interpolated variables, but the fact that you've done so isn't particularly interesting to the general public. Don't change typographic style to highlight interpolated variables.
 
+## Legends
+
+It's preferable to label items in a chart directly, but in cases where that's not possible you should always use a legend that is visible on the reader's computer screen when the chart is visible. Legends should be in the same sequence as the chart it describes.
+
 ## Maps
 
-Avoid bubble maps, which represent the rate of a phenomenon at different locations using differently sized circles. This is for two reasons: First, people cannot accurately perceive differences in the area of circles. Second, bubble maps appear to show the geographic bounds of a phenomenon and not the rate of that phenomenon at the geographic center of the circle. This is another way of saying that they look too much like nuclear blast radius maps.
+Maps are best when showing data where geography is an important variable. [Read "When Maps Shouldn't Be Maps" before making any maps](http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/).
 
 All maps must be distinguishable from population maps. To accomplish this, the underlying data should control for population or other denominator. If you make a U.S. state choropleth map and the darkest states are New York, Texas and California, re-read this paragraph.
 
 Use the Texas-Centric Albers Equal Area projection ([EPSG:3083](http://spatialreference.org/ref/epsg/3083/html/)) for a map of the continental U.S. and state-plane maps for individual states. Use the Mercator projection only for tile maps (sometimes called slippy maps).
+
+Avoid bubble maps, which represent the rate of a phenomenon at different locations using differently sized circles. This is for two reasons: First, people cannot accurately perceive differences in the area of circles. Second, bubble maps appear to show the geographic bounds of a phenomenon and not the rate of that phenomenon at the geographic center of the circle. This is another way of saying that they look too much like nuclear blast radius maps.
 
 ## Meta Tags
 
@@ -106,6 +128,10 @@ News applications and graphics share a lot of common characteristics. Both tell 
 
 Document any methodology and present it to readers clearly. Post a link to it prominently in the app or graphic. The methodology (or "nerd box") should detail the sources of the data, the steps you took to clean the data and the exact analysis you ran on the data.
 
+## Money
+
+Use the appropriate currency symbols when showing currency. Avoid showing fractional currency like cents.
+
 ## Numbers
 
 The primary function of numbers in a news application or graphic is to help readers understand scale and order of magnitude, and compare against other numbers. Think of them more like words than like minutely precise coordinates (unless of course your numbers are literally coordinates).
@@ -116,11 +142,17 @@ Except where special precision is required, stick to whole numbers. Don't portra
 
 Round numbers and never use 'ceiling' or 'floor' functions for floats. Be vigilant if your programming language does this by default.
 
-Except where special precision is required, abbreviate any number over 1,000 by truncating each number after the highest thousands place and appending a word or abbreviation indicating order of magnitude. Use one significant digit after the decimal point. For example:
+Except where special precision is required, abbreviate any number over 10,000 by truncating each number after the highest thousands place and appending a word or abbreviation indicating order of magnitude. Use one significant digit after the decimal point. For example:
 
     10,302,321 -> 10.3 million or 10.3M
     5,242,000,014 -> 5.2 billion or 5.2B
     901,212 -> 901.2 thousand or 901.2K or 0.9M
+
+For numbers with more than three digits, always separate each thousands place with a comma.
+
+Use AP style when using numbers in copy. That is, spell out numbers under 10 except in the following circumstances:
+
+    Use figures for ages, sums of money, time of day, percentages, house numerals, years, days of month, degrees of temperature, proportions, votes, scores, speeds, time of races, dimensions and serial numbers.
 
 ## States
 
@@ -159,6 +191,10 @@ Put top matter at the top of the first page of your app or graphic, under the by
 3. How to find the related story, if any.
 
 Avoid re-telling a whole news story in the top matter. Use this rule of thumb: Each line of top matter halves the number of people who will read it.
+
+## Total
+
+Only use "total" as an adjective when it's not clear what you're totalling. Never use the redundant "total amount" -- just use "total."
 
 ## Updates
 
