@@ -13,7 +13,7 @@ These guides are copyright 2013 Pro Publica, Inc. and are licensed under a [Crea
 
 ## Discuss
 
-You can submit issues using Github Issues (look for the "Issues" link).
+You can submit issues using [Github Issues](https://github.com/propublica/guides/issues).
 
 ## Contributing
 
