@@ -82,6 +82,8 @@ Singular. Say "the data is" and not "the data are," just as you say "bacon is de
 
 ## Geocoding
 
+If you use the Google Geocoding API, only map addresses that have accuracies of "ROOFTOP" or "RANGE_INTERPOLATED" in the location_type field. Don't display partial matches.
+
 ## Guff
 
 (see [Top Matter](#guff))
