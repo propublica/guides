@@ -1,5 +1,7 @@
 # ProPublica News Apps Manual of Style
 
+_by Scott Klein, ProPublica_
+
 This style guide comprises the typographic and technical best practices used by ProPublica's News Applications desk. Most of the rules here also apply to our online graphics, a category that [has a lot in common](#versus) with news applications. It's not meant to be a design spec or a [coding style guide](code.md), though you should probably have both of those.
 
 Remember that overdependence on and lawyerly appeals to rules can hamper progress, and that "a foolish consistency is the hobgoblin of little minds." News apps are a new and dynamic field and [forking these rules](README.md) for your own newsroom is a good thing. These rules are not an excuse to avoid change, and nothing in this document should be taken as a discouragement to be weird. This is just a set of decisions we've decided work really well for us, and that we try to stick to.
