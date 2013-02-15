@@ -80,7 +80,7 @@ We generally avoid bubble maps, which represent the rate of a phenomenon at vari
 
 All maps must be distinguishable from population maps and so the underlying data should control for population or other denominator. If you make a U.S. state choropleth map and the darkest states are New York, Texas and California, re-read this paragraph.
 
-We use an Albers projection for a map of the continental U.S. and state-plane maps for individual states. We use the Mercator projection for tile maps (sometimes called slippy maps).
+We use the Texas Centric Albers Equal Area projection (EPSG:3083) for a map of the continental U.S. and state-plane maps for individual states. We use the Mercator projection for tile maps (sometimes called slippy maps).
 
 ## Meta Tags
 
