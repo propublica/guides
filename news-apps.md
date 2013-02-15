@@ -1,4 +1,4 @@
-# ProPublica News Apps Manual of Style
+# ProPublica News Apps Style Guide
 
 This style guide comprises the typographic and technical best practices used by ProPublica's News Applications desk. Most of the rules here also apply to our online graphics, a category that [has a lot in common](#versus) with news applications. It's not meant to be a design spec or a [coding style guide](code.md), though you should probably have both of those.
 
