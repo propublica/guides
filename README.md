@@ -11,6 +11,10 @@
 
 These guides are copyright 2013 Pro Publica, Inc. and are licensed under a [Creative Commons CC BY 3.0](http://creativecommons.org/licenses/by/3.0/) license. You are free to share and to remix them.
 
+## Discuss
+
+You can submit issues using Github Issues (look for the "Issues" link).
+
 ## Contributing
 
 1. Fork it
