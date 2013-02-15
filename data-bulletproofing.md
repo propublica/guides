@@ -1,5 +1,5 @@
 # A Guide to Bulletproofing Your Data
 
-by Jennifer LaFleur
+_by Jennifer LaFleur, ProPublica_
 
 TK
