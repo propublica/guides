@@ -1,4 +1,4 @@
-# ProPublica News Apps Manual of Style
+# ProPublica News Apps Style Guide
 
 _by Scott Klein, ProPublica_
 
