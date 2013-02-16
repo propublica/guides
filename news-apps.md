@@ -80,6 +80,8 @@ When an app's data is refreshed and the corrected data has itself been removed o
 
 Singular. Say "the data is" and not "the data are," just as you say "bacon is delicious" not "bacon are delicious."
 
+This rule is not without controversy. The AP classifies data as a collective noun that takes the singular when treated as a unit but the plural when referring to individual items ("The data is sound.", but "The data have been carefully collected.").
+
 ## Geocoding
 
 When making maps of geocoded addresses, use the Google Geocoding API, and only show addresses that have accuracies of "ROOFTOP" or "RANGE_INTERPOLATED" in the location_type field. Don't display partial matches.
@@ -134,7 +136,7 @@ Document any methodology and present it to readers clearly. Post a link to it pr
 
 ## Money
 
-Use the appropriate currency symbols when showing currency. Avoid showing fractional currency like cents.
+Use the appropriate currency symbols when showing currency. Avoid showing fractional currency like cents. In most cases, currency for multiple years should be adjusted to current year.
 
 ## Numbers
 
