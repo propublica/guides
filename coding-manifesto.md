@@ -24,7 +24,7 @@ In JavaScript, we prefer events that other objects can subscribe to over direct 
 
 We work on feature branches and merge to master as features are completed and deployable.
 
-Every app must have a README in the root level that explains how to bootstrap the app. Those instructions should be directed at an experienced developer who knows our deployment system but who might not know anything about the app, and must include how to bootstrap data and dependencies in development and production, any special post-deploy instructions, etc. When creating this, imagine your reader as a weary sysadmin recovering from a system meltdown. When possible, make a setup script that expresses dev bootstrap instructions as comments in a shell script that [will actually do the bootstrapping](http://robots.thoughtbot.com/post/41439635905/bin-setup).
+Every app must have a README in the root level that explains how to bootstrap the app. Those instructions should be directed at an experienced developer who knows our deployment system but who might not know anything about the app, and must include how to bootstrap data and dependencies in development and production, any special post-deploy instructions, etc. When creating this, imagine your reader as a weary, freaked-out sysadmin recovering from a system meltdown. When possible, make a setup script that expresses dev bootstrap instructions as comments in a shell script that [will actually do the bootstrapping](http://robots.thoughtbot.com/post/41439635905/bin-setup). You can also [use make](http://bost.ocks.org/mike/make/).
 
 We [don't repeat ourselves.](https://github.com/propublica/nerdblog/blob/master/style-guide-wip/news-apps.md)
 
