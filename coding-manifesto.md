@@ -2,7 +2,7 @@
 
 _by Jeff Larson and Scott Klein, ProPublica_
 
-There are many style guides for code, most are silly. Some are better than others, and some rules are more important than others. We don't adhere to any typographic rules in our code for their own sake. Our rule is simply this: Code has two audiences -- the compiler and your fellow develoeprs. Recognize that your code will eventually need to be understood by other developers. To the maximum extent possible and within the bounds of reason and your deadline, prefer code that's easy for other developers to understand over code that accomplishes the same task in a more concise but obscure way.
+There are many style guides for code, most are silly. Some are better than others, and some rules are more important than others. We don't adhere to any typographic rules in our code for their own sake. Our rule is simply this: Code has two audiences -- the compiler and your fellow developers. Recognize that your code will eventually need to be understood by other developers. To the maximum extent possible and within the bounds of reason and your deadline, prefer code that's easy for other developers to understand over code that accomplishes the same task in a more concise but obscure way.
 
 More important than a typographic style for code is coding standards for security, compatibility and performance. We write code that is secure, tested and optimized. Here are some best practices we follow:
 
@@ -29,3 +29,4 @@ Every app must have a README in the root level that explains how to bootstrap th
 We [don't repeat ourselves.](https://github.com/propublica/nerdblog/blob/master/style-guide-wip/news-apps.md)
 
 Too many tests are a code smell. We aren't affiliated with the churches of BDD, TDD, Kanban or any other doctrine. We test the parts of our code that should be tested, but our deadlines are more important to us than test coverage for its own sake.
+
