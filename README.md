@@ -22,4 +22,3 @@ You can submit issues using [Github Issues](https://github.com/propublica/guides
 3. Commit your changes (`git commit -am "Proposed Change"`)
 4. Push your branch (`git push origin my-guide`)
 5. Send a pull request
-
