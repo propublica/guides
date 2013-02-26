@@ -4,7 +4,7 @@ _by Scott Klein, ProPublica_
 
 This style guide comprises the typographic and technical best practices used by ProPublica's News Applications desk. Most of the rules here also apply to our online graphics, a category that [has a lot in common](#versus) with news applications. It's not meant to be a design spec or a [coding style guide](code.md), though you should probably have both of those.
 
-Remember that overdependence on and lawyerly appeals to rules can hamper progress, and that "a foolish consistency is the hobgoblin of little minds." News apps are a new and dynamic field and [forking these rules](README.md) for your own newsroom is a good thing. These rules are not an excuse to avoid change, and nothing in this document should be taken as a discouragement to be weird. This is just a set of decisions we've decided work really well for us, and that we try to stick to.
+Remember that overdependence on rules can hamper progress, and that "a foolish consistency is the hobgoblin of little minds." News apps are a new and dynamic field and [forking these rules](README.md) for your own newsroom is a good thing. These rules are not an excuse to avoid change, and nothing in this document should be taken as a discouragement to be weird. This is just a set of decisions we've decided work really well for us, and that we try to stick to.
 
 Finally, this is a living document. Please feel free to [propose changes](README.md).
 
@@ -26,7 +26,7 @@ If you must use a library or technology that has no cross-browser equivalent, pr
 
 Support the built-in browsers in the latest revision of the iOS and Android software development kits. All hover and click events should have analogous touch and swipe events on touchscreens.
 
-When feasible, use [responsive web design](http://www.abookapart.com/products/responsive-web-design), with breaks for desktop, tablet, and handset. However, if an app or graphic requires so much horizontal space that responsive design would be impractical, make sure that handsets and tablets can see and use those apps in "[overview mode](http://developer.android.com/guide/webapps/targeting.html)."
+When feasible, use [responsive web design](http://www.abookapart.com/products/responsive-web-design), with breaks for desktop, tablet and handset. However, if an app or graphic requires so much horizontal space that responsive design would be impractical, make sure that handsets and tablets can see and use those apps in "[overview mode](http://developer.android.com/guide/webapps/targeting.html)."
 
 ## Bylines
 
@@ -50,7 +50,7 @@ Use a scatterplot to show a correlation or lack thereof between two variables.
 
 Bubble charts are acceptable where the accurate perception of fine differences between the circles is not important (see Maps). Circles in bubble charts should vary in area and not diameter or radius.
 
-Avoid 3-D charts at all costs. Human have enough problem perceiving area accurately. Asking them to perceive 3d volume makes matters worse.
+Avoid 3-D charts at all costs. Human have enough problem perceiving area accurately. Asking them to perceive 3-D volume makes matters worse.
 
 Avoid donut charts at all costs.
 
@@ -62,7 +62,7 @@ In annual trend data don't include partial years.
 
 When you select colors, check to be sure people with color blindness can read and understand the data. We use [Color Oracle](http://colororacle.org/) to do this.
 
-Use [Color Brewer](http://colorbrewer2.org/) to select colors when posssible, and not just for maps.
+Use [Color Brewer](http://colorbrewer2.org/) to select colors when possible, and not just for maps.
 
 When showing differences in rate of a single variable, stick to a single hue and vary value/lightness. For example, don't fade from blue to pink. The one exception is fading from red to green to show "bad" to "good" (and remember to check your reds and greens for color blindness accessibility).
 
@@ -74,17 +74,17 @@ News apps and graphics should follow your newsroom's standard corrections policy
 
 When data is incorrect, place the correction language on every page that once showed the incorrect data point. That may mean that a correction will appear on thousands of pages.
 
-When an app's data is refreshed and the corrected data has itself been removed or superceded, remove the correction language to avoid confusion.
+When an app's data is refreshed and the corrected data has been removed or superceded, remove the correction language to avoid confusion.
 
 ## Data: Singular or Plural?
 
 Singular. Say "the data is" and not "the data are," just as you say "bacon is delicious" not "bacon are delicious."
 
-This rule is not without controversy. The AP classifies data as a collective noun that takes the singular when treated as a unit but the plural when referring to individual items ("The data is sound.", but "The data have been carefully collected.").
+This rule is not without controversy. The AP classifies data as a collective noun that takes the singular when treated as a unit but the plural when referring to individual items ("The data is sound," but "The data have been carefully collected.").
 
 ## Geocoding
 
-When making maps of geocoded addresses, use the Google Geocoding API, and only show addresses that have accuracies of "ROOFTOP" or "RANGE_INTERPOLATED" in the location_type field. Don't display partial matches.
+When making maps of geocoded addresses, use the Google Geocoding API and only show addresses that have accuracies of "ROOFTOP" or "RANGE_INTERPOLATED" in the location_type field. Don't display partial matches.
 
 ## Guff
 
@@ -106,11 +106,11 @@ It's good to write sentences that include interpolated variables, but the fact t
 
 ## Legends
 
-It's preferable to label items in a chart directly, but in cases where that's not possible you should always use a legend that is visible on the reader's computer screen when the chart is visible. Legends should be in the same sequence as the chart it describes.
+It's preferable to label items in a chart directly, but in cases in which that's not possible you should always use a legend that is visible on the reader's computer screen when the chart is visible. Legends should be in the same sequence as the charts they describe.
 
 ## Maps
 
-Maps are best when showing data where geography is an important variable. [Read "When Maps Shouldn't Be Maps" before making any maps](http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/).
+Maps are best when showing data in which geography is an important variable. [Read "When Maps Shouldn't Be Maps" before making any maps](http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/).
 
 All maps must be distinguishable from population maps. To accomplish this, the underlying data should control for population or other denominator. If you make a U.S. state choropleth map and the darkest states are New York, Texas and California, re-read this paragraph.
 
@@ -125,7 +125,7 @@ Every page in an app should have a unique title tag, a unique meta-description t
 <a name="versus"></a>
 ## News Applications vs. Graphics
 
-News applications and graphics share a lot of common characteristics. Both tell stories with data. Both are an amalgam of design, programming and journalism. So what's the difference? Here are two criteria. One is more technical and so less open to debate, but we admit they're both imperfect:
+News applications and graphics share a lot of characteristics. Both tell stories with data. Both are an amalgam of design, programming and journalism. So what's the difference? Here are two criteria. One is more technical and so less open to debate, but we admit they're both imperfect:
 
 1. Graphics tend to tell a single story while news applications tell many -- specifically, news applications let readers see how they're personally affected.
 2. Graphics tend to run in the browser while news applications tend to require multiple trips to some backend or a runtime on a server.
@@ -142,7 +142,7 @@ Use the appropriate currency symbols when showing currency. Avoid showing fracti
 
 The primary function of numbers in a news application or graphic is to help readers understand scale and order of magnitude, and compare against other numbers. Think of them more like words than like minutely precise coordinates (unless of course your numbers are literally coordinates).
 
-Apply the following rules to numbers wherever they appear in our apps and graphcs:
+Apply the following rules to numbers wherever they appear in your apps and graphics:
 
 Except where special precision is required, stick to whole numbers. Don't portray precision that doesn't really exist.
 
@@ -158,11 +158,11 @@ For numbers with more than three digits, always separate each thousands place wi
 
 Use AP style when using numbers in copy. That is, spell out numbers under 10 except in the following circumstances:
 
-    Use figures for ages, sums of money, time of day, percentages, house numerals, years, days of month, degrees of temperature, proportions, votes, scores, speeds, time of races, dimensions and serial numbers.
+    Use figures for ages, sums of money, time of day, percentages, house numerals, years, days of the month, degrees of temperature, proportions, votes, scores, speeds, time of races, dimensions and serial numbers. ([via](https://websso.wwu.edu/down/index.shtml))
 
 ## States
 
-Use [AP abbreviations](http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations) for states, and avoid postal abbreviations except when the space is so constrained that you have to use them.
+Use [AP abbreviations](http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations) for states and avoid postal abbreviations except when the space is so constrained that you have to use them.
 
 We use the [nytimes-style gem](https://rubygems.org/gems/nytimes-style) to help us abbreviate states correctly.
 
@@ -194,11 +194,11 @@ Put explanatory copy at the top of the first page of your app or graphic, under 
 
 1. Give the reader enough background to be able to understand the purpose of the app or graphic.
 2. Let the reader know how to start using any interactivity.
-3. How to find the related story, if any.
+3. Explain how to find the related story, if any.
 
 ## Total
 
-Only use "total" as an adjective when it's not clear what you're totalling. Never use the redundant "total amount" -- just use "total."
+Only use "total" as an adjective when it's not clear what you're totaling. Never use the redundant "total amount" -- just use "total."
 
 ## Updates
 
