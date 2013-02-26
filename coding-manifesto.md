@@ -40,5 +40,5 @@ Every app should have a README in the root level that explains how to bootstrap 
 
 [Don't repeat yourself.](https://github.com/propublica/guides/coding-manifesto.md)
 
-Too many tests are a code smell. Do not join any code churches and don't subscribe to doctrines that make your decisions for you. Test the parts of your code that should be tested, but your deadlines are more important than getting a good grade on test coverage.
+Do not join any code churches and don't subscribe to doctrines that make your decisions for you. Too many tests are a code smell. Test the parts of your code that should be tested, but your deadlines are more important than getting a good grade on test coverage.
 
