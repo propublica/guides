@@ -2,10 +2,11 @@
 
 ## Table of Contents
 
-1. [News Apps Style Guide](news-apps.md)
-2. [Coding Manifesto](coding.md)
-3. [Social Tagging Guide](social-tags.html)
-4. [Data Bulletproofing Guide](data-bulletproofing.md)
+1. [Intro: The Design and Structure of a News Application](design-structure.md)
+2. [News Apps Style Guide](news-apps.md)
+3. [Coding Manifesto](coding.md)
+4. [Social Tagging Guide](social-tags.html)
+5. [Data Bulletproofing Guide](data-bulletproofing.md)
 
 ## License
 
