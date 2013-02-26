@@ -2,7 +2,7 @@
 
 _by Jeff Larson and Scott Klein, ProPublica_
 
-There are many style guides for code. Most are silly. 
+There are many style guides for code. Some are better than others. 
 
 Some rules are more important than others and are worth following. For instance, we like this rule: Code has two audiences -- the compiler and your fellow developers. Recognize that your code will eventually need to be understood by other people. To the maximum extent possible and within the bounds of reason and your deadline, prefer code that's easy for other developers to understand over code that accomplishes the same task in a more obscure way. But if your app piles hacks on hacks on hacks, it's broken.
 
