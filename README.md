@@ -10,7 +10,7 @@
 
 ## License
 
-These guides are copyright 2013 Pro Publica, Inc. and are licensed under a [Creative Commons CC BY 3.0](http://creativecommons.org/licenses/by/3.0/) license. You are free to share and to remix them.
+These guides are copyright 2013 Pro Publica, Inc. and are licensed under a [Creative Commons BY-NC 3.0](http://creativecommons.org/licenses/by-nc/3.0/) license. You are free to share and to remix them, though not to use them commercially without permission.
 
 ## Discuss
 
