@@ -4,7 +4,7 @@
 
 1. [Intro: The Design and Structure of a News Application](design-structure.md)
 2. [News Apps Style Guide](news-apps.md)
-3. [Coding Manifesto](coding.md)
+3. [Coding Manifesto](coding-manifesto.md)
 4. [Social Tagging Guide](social-tags.html)
 5. [Data Bulletproofing Guide](data-bulletproofing.md)
 
