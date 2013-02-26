@@ -1,4 +1,6 @@
-# Design and Structure of a News Application
+# Intro: The Design and Structure of a News Application
+
+_by Scott Klein, ProPublica_
 
 News apps tell stories. They've got much of the same structure as any
 news story. They've got the graphical equivalent of ledes and nut grafs.
