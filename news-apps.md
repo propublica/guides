@@ -86,6 +86,8 @@ This rule is not without controversy. The AP classifies data as a collective nou
 
 When making maps of geocoded addresses, use the Google Geocoding API and only show addresses that have accuracies of "ROOFTOP" or "RANGE_INTERPOLATED" in the location_type field. Don't display partial matches.
 
+Do spot checks to make sure everything geocoded, and as with all things, [bulletproof your data](data-bulletproofing.md).
+
 ## Guff
 
 (see [Top Matter](#guff))
@@ -159,7 +161,7 @@ For numbers with more than three digits, always separate each thousands place wi
 Use AP style when using numbers in copy. That is, spell out numbers under 10 except in the following circumstances:
 
     Use figures for ages, sums of money, time of day, percentages, house numerals, years, days of the month, degrees of temperature, proportions, votes, scores, speeds, time of races, dimensions and serial numbers. ([via](https://websso.wwu.edu/down/index.shtml))
-    
+
 "Not available" and "not applicable" are abbreviated like this: N/A
 
 ## States
