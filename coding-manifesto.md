@@ -10,7 +10,7 @@ Some rules are more important than others and are worth following. For instance,
 
 More important than establishing a shared style is establishing shared standards for security, compatibility and performance. Write code that is secure, tested and optimized. Here are some best practices to follow:
 
-If possible, use Varnish. Everything served by the Varnish cache is much faster than any code you can write. You will save a lot of time by not refactoring code that's only going to be seen by one user before Varnish caches it anyway. Use thie time to apply a special level of scrutiny to routes that cannot be cached. 
+If possible, use Varnish. Everything served by the Varnish cache is much faster than any code you can write. You will save a lot of time by not refactoring code that's only going to be seen by one user before Varnish caches it anyway. Use this time to apply a special level of scrutiny to routes that cannot be cached. 
 
 That being said, all of your HTTP requests should take less than a second to complete. Total page size, including all assets, shouldn't top 1.5 megabytes, and even that's higher than it should be.
 
@@ -34,7 +34,7 @@ All objects in your code should have a single responsibility and encapsulate int
 
 Objects with a simple forward-facing API allow software to be soft.
 
-In JavaScript, prefer events that other objects can subscribe to over direct method calls, when possible.
+In JavaScript, prefer [events](http://backbonejs.org/#Events) that other objects can subscribe to over direct method calls, when possible.
 
 Work on feature branches and merge to master as features are completed and deployable.
 
