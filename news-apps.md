@@ -82,6 +82,10 @@ Singular. Say "the data is" and not "the data are," just as you say "bacon is de
 
 This rule is not without controversy. The AP classifies data as a collective noun that takes the singular when treated as a unit but the plural when referring to individual items ("The data is sound," but "The data have been carefully collected.").
 
+## Dashes
+
+Use spaces around en-dashes, em-dashes and double-hyphens when used in place of em-dashes and en-dashes. Browsers are really bad at spacing lines properly when they contain two long words joined by a dash.
+
 ## Geocoding
 
 When making maps of geocoded addresses, use the Google Geocoding API and only show addresses that have accuracies of "ROOFTOP" or "RANGE_INTERPOLATED" in the location_type field. Don't display partial matches.
