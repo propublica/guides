@@ -4,7 +4,7 @@ _by Jennifer LaFleur, ProPublica_
 
 ## Integrity Checks for Every Data Set
 
-- Make sure you know how many records you should have and that you have them all. If you or someone in your newsroom tells you they have 65,536 records, be concerned. That is the exact limit of Excel.
+- Make sure you know how many records you should have and that you have them all. If you or someone in your newsroom tells you they have 65,536 or 1,048,576 records, be concerned. Those are the exact row limits of certain versions of Excel.
 - Double-check totals or counts. Check for studies or summary reports.
 - Consistency-check all fields.  Are all city names spelled the same way? How about other important fields? Check by running a GROUP BY and sorting alphabetically by every important field. Check it for spelling inconsistencies. For example, if you’re analyzing a database of highway accidents, GROUP BY and sort ascending on the road name to check for inconsistencies.
 - Other basic checks: make sure all states/cities/counties are included. Check the range of fields. (For example, check for DOBs that would make people too old or too young.) 
