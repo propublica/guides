@@ -4,7 +4,7 @@ _by Jennifer LaFleur, ProPublica_
 
 ## Integrity Checks for Every Data Set
 
-- Make sure you know how many records you should have and that you have them all. Certain versions of Excel have row limits; database programs like MySQL have limits on the size of integers and on the length of string fields. These limits tend to be powers of two -- 2^n or 2^n-1. Be concerned if you or someone in your newsroom tells you they have 65,536 or 1,048,576 records, if strings are all 255 characters long or if a sum appears to be 2,097,152. 
+- Make sure you know how many records you should have and that you have them all. Certain versions of Excel, especially ones used in gov't agencies, have row limits; be concerned if you or someone in your newsroom tells you they have 65,536. Database programs like MySQL have limits on the size of integers and on the length of string fields. These limits tend to be powers of two -- 2^n or 2^n-1. or 1,048,576 records, so be skeptical if your strings are 255 characters long or if a sum appears to be 2,097,152. 
 - Double-check totals or counts. Check for studies or summary reports.
 - Consistency-check all fields.  Are all city names spelled the same way? How about other important fields? Check by running a GROUP BY and sorting alphabetically by every important field. Check it for spelling inconsistencies. For example, if you’re analyzing a database of highway accidents, GROUP BY and sort ascending on the road name to check for inconsistencies.
 - Other basic checks: make sure all states/cities/counties are included. Check the range of fields. (For example, check for DOBs that would make people too old or too young.) 
