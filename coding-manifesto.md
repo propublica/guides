@@ -4,19 +4,21 @@ _by Jeff Larson and Scott Klein, ProPublica_
 
 This is a manifesto for sane coding in a news environment. We're not making any general statements about anything beyond the environment we know: Doing journalism on deadline using code. Your mileage may vary.
 
-There are many style guides for code. Some are better than others. 
+There are many style guides for code. Some are better than others.
 
 Some rules are more important than others and are worth following. For instance, we like this rule: Code has two audiences -- the compiler and your fellow developers. Recognize that your code will eventually need to be understood by other people. To the maximum extent possible and within the bounds of reason and your deadline, prefer code that's easy for other developers to understand over code that accomplishes the same task in a more obscure way. But if your app piles hacks on hacks on hacks, it's broken.
 
 More important than establishing a shared style is establishing shared standards for security, compatibility and performance. Write code that is secure, tested and optimized. Here are some best practices to follow:
 
-If possible, use Varnish. Everything served by the Varnish cache is much faster than any code you can write. You will save a lot of time by not refactoring code that's only going to be seen by one user before Varnish caches it anyway. Use this time to apply a special level of scrutiny to routes that cannot be cached. 
+If possible, use Varnish. Everything served by the Varnish cache is much faster than any code you can write. You will save a lot of time by not refactoring code that's only going to be seen by one user before Varnish caches it anyway. Use this time to apply a special level of scrutiny to routes that cannot be cached.
 
 That being said, all of your HTTP requests should take less than a second to complete. Total page size, including all assets, shouldn't top 1.5 megabytes, and even that's higher than it should be.
 
 Follow all security best practices. Apply patches without procrastinating.
 
-Don't write code that guesses at future functionality. 
+Any backup plan that doesn't include recovery drills is just a hypothesis. [via](http://shop.oreilly.com/product/9781565926424.do)
+
+Don't write code that guesses at future functionality.
 
 Avoid gilding the lily. You're on deadline. You're not writing code for the ages.
 
@@ -30,7 +32,7 @@ If an app crashes a mobile device or doesn't work because it relies on hovers fo
 
 If an app isn't responsive or adaptive to multiple screen sizes, it might be broken. Sometimes tiny screens are too small.
 
-All objects in your code should have a single responsibility and encapsulate internal state. Imagine every [object as a tiny machine](http://worrydream.com/EarlyHistoryOfSmalltalk/) that is responsible for one idea, and only communicates with other objects via simple interfaces. 
+All objects in your code should have a single responsibility and encapsulate internal state. Imagine every [object as a tiny machine](http://worrydream.com/EarlyHistoryOfSmalltalk/) that is responsible for one idea, and only communicates with other objects via simple interfaces.
 
 Objects with a simple forward-facing API allow software to be soft.
 
