@@ -49,7 +49,7 @@ _by Jennifer LaFleur, ProPublica_
 
 ## Other Tips From Our Colleagues
 
-_Sarah Cohen of the Washington Post on homemade databases:_
+_Sarah Cohen of the New York Times on homemade databases:_
 
 - Number the pages of your documents to keep them in order and include the number when you enter the data. It helps you stay organized and with double-checking later on.
 - Add fields that relate to how “publishable” information is. I usually create fields that anyone can fill in that say 1) is the name spelling checked.
