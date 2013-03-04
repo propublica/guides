@@ -32,7 +32,7 @@ the near. Make sure to use visual consistency and make transitions
 obvious so the reader can understand the "zoom levels" as they go down
 them.
 
-Whenver possible, every number in your app should include a comparison
+Whenever possible, every number in your app should include a comparison
 to another, either to a similar example (e.g., my county vs. the
 neighboring one) to larger clusters (my county vs. the state average) or
 to the whole (my county vs. the national average).
