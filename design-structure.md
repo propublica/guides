@@ -22,7 +22,7 @@ have the national picture of the data, with ranked examples, e.g., an
 ordered list of states, counties, companies, etc.
 
 Your near view is the page at lowest level of abstraction, where your
-reader is looking at he own school, his own town, etc. The near view
+reader is looking at their own school, his own town, etc. The near view
 conveys association and identity. It is the means through which readers
 will understand the whole by relating it to the example they understand
 best.
