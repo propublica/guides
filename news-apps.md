@@ -38,7 +38,7 @@ The byline should list the developers and reporters who made significant contrib
 
 ## Charts
 
-Avoid pie charts, with one exception: Use them to show the relationship between part and whole. Never use a pie chart with more than two elements.
+Avoid pie charts, with one exception: Use them to show the relationship between [part and whole](http://www.excelcharts.com/blog/optimal-number-categories-pie-chart/). Never use a pie chart with more than two elements. [See also](http://pinterest.com/pin/171066485815925388/).
 
 Use a bar chart to show discrete quantities.
 
