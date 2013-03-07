@@ -198,7 +198,7 @@ We use the [nytimes-style gem](https://rubygems.org/gems/nytimes-style) to help 
 <a name="guff"></a>
 ## Top Matter
 
-Put explanatory copy at the top of the first page of your app or graphic, under the byline. It should be very short -- aim for no more than four or five lines. Avoid re-telling a whole news story, but do make sure you accomplish three things:
+Put explanatory copy at the top of the first page of your app or graphic, under the byline. This copy goes by many names: "Lead-in," "top matter," etc. At ProPublica we call it "guff." It should be very short -- aim for no more than four or five lines. Avoid re-telling a whole news story, but do make sure you accomplish three things:
 
 1. Give the reader enough background to be able to understand the purpose of the app or graphic.
 2. Let the reader know how to start using any interactivity.
