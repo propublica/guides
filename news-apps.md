@@ -110,6 +110,10 @@ When requiring hovers in blocks of text (as opposed to in a map or graphic), pro
 
 It's good to write sentences that include interpolated variables, but the fact that you've done so isn't particularly interesting to the general public. Don't change typographic style to highlight interpolated variables.
 
+## Lead-in
+
+(see [Top Matter](#topmatter))
+
 ## Legends
 
 It's preferable to label items in a chart directly, but in cases in which that's not possible you should always use a legend that is visible on the reader's computer screen when the chart is visible. Legends should be in the same sequence as the charts they describe.
