@@ -94,7 +94,7 @@ Do spot checks to make sure everything geocoded, and as with all things, [bullet
 
 ## Guff
 
-(see [Top Matter](#guff))
+(see [Top Matter](#topmatter))
 
 ## Headlines
 
@@ -195,7 +195,7 @@ When including the time in a news app or graphic, abbreviate the meridian in AP 
 
 We use the [nytimes-style gem](https://rubygems.org/gems/nytimes-style) to help us format time correctly.
 
-<a name="guff"></a>
+<a name="topmatter"></a>
 ## Top Matter
 
 Put explanatory copy at the top of the first page of your app or graphic, under the byline. This copy goes by many names: "Lead-in," "top matter," etc. At ProPublica we call it "guff." It should be very short -- aim for no more than four or five lines. Avoid re-telling a whole news story, but do make sure you accomplish three things:
