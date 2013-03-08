@@ -58,14 +58,6 @@ Don't show interpolated or predicted data without saying you're doing so.
 
 In annual trend data don't include partial years.
 
-## Color breaks
-
-ColorBrewer's scales change in lightness or hue in equal interval steps, but your data may not be best represented with equal interval breaks in your data. If you have your map data in QGIS or ArcGIS, see what patterns emerge using [a variety of break algorithms](http://help.arcgis.com/en/arcgisdesktop/10.0/help/index.html#//00s50000001r000000) such as quantiles, Jenks natural breaks, standard deviation, or even arbitrary breaks that might make sense for your data. For example, if your data is average commute time to work, breaks of 10, 20, 30, 45 and 60+ minutes might make the most sense for readers.
-
-When deciding color breaks, always histogram your distribution and think about the story you want to tell. For instance, if your data mostly contains values between 1 and 10 but includes values up to 1,000, you might want the color that represents 1,000 to be more than just one shade darker than the color that represents 10. Or, if the story lies between the variations between 1 and 10, then you want to maximize the variation between colors in that interval and the 1,000 values need not be so noticeably different in hue or lightness. The Daily Beast uses a tool they made called [Histagram.me](http://www.histagram.me) to examine the distribution of datasets.
-
-If the story you see in your data only appears under a custom color break scale, rethink whether the pattern is actually in the data.
-
 ## Colors
 
 When you select colors, check to be sure people with color blindness can read and understand the data. We use [Color Oracle](http://colororacle.org/) to do this.
@@ -75,6 +67,14 @@ Use [Color Brewer](http://colorbrewer2.org/) to select colors when possible, and
 When showing differences in rate of a single variable, stick to a single hue and vary value/lightness. For example, don't fade from blue to pink. The one exception is fading from red to green to show "bad" to "good" (and remember to check your reds and greens for color blindness accessibility).
 
 When showing variations in kind, alter hues.
+
+## Color breaks
+
+Pick color breaks carefully. Your data may not be best represented with equal-interval breaks. See what patterns emerge using a variety of algorithms, such as quantiles, [Jenks natural breaks](http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization), [head/tail breaks](https://sites.google.com/site/thepowerofcartography/head-tail-breaks), standard deviation, or even arbitrary breaks that might make sense for your data. For example, if your data is average commute time to work, breaks of 10, 20, 30, 45 and 60+ minutes might make the most sense for readers, even if your data is not distributed normally among those breaks.
+
+Make sure your color breaks don't mislead readers about the distribution of your data. For instance, if your values are mostly clustered between 1 and 10 but includes a few items above 1,000, make sure that the color that represents 1,000 is more than just one shade different than the color that represents 10. The Daily Beast uses a tool they made called [Histagram.me](http://www.histagram.me/) to examine the distribution of datasets.
+
+If the pattern you see in your data only appears under a custom color break scale, rethink whether the pattern is actually in the data.
 
 ## Corrections
 
