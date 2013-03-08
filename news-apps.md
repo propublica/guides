@@ -84,7 +84,13 @@ This rule is not without controversy. The AP classifies data as a collective nou
 
 ## Dashes
 
-Use spaces around en-dashes, em-dashes and double-hyphens when used in place of em-dashes and en-dashes. Browsers are really bad at spacing lines properly when they contain two long words joined by a dash.
+Use spaces around en-dashes and em-dashes, and around double-hyphens when used in place of them. Browsers are really bad at typesetting lines properly when they contain words joined by a dash.
+
+Follow your existing house style on when to use en-dashes and em-dashes. If you don't have a style yet, it's probably safe just to use hyphens everywhere. If the idea of using hyphens instead of the proper dashes horrifies you, by all means do what your heart commands, though remember that you'll be working with data from sources that don't share your strong feelings, so maintaining your style consistently will take some doing.
+
+## Entities
+
+Try to avoid using html entities. We're in the future -- use unicode.
 
 ## Geocoding
 
