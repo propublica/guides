@@ -50,7 +50,7 @@ Use a scatterplot to show a correlation or lack thereof between two variables.
 
 Bubble charts are acceptable where the accurate perception of fine differences between the circles is not important (see Maps). Circles in bubble charts should vary in area and not diameter or radius.
 
-Avoid 3-D charts at all costs. Human have enough problem perceiving area accurately. Asking them to perceive 3-D volume makes matters worse.
+Avoid 3-D charts at all costs. Humans have enough problems perceiving area accurately. Asking them to perceive 3-D volume makes matters worse.
 
 Avoid donut charts at all costs.
 
@@ -182,7 +182,7 @@ For numbers with more than three digits, always separate each thousands place wi
 
 Use AP style when using numbers in copy. That is, spell out numbers under 10 except in the following circumstances:
 
-    Use figures for ages, sums of money, time of day, percentages, house numerals, years, days of the month, degrees of temperature, proportions, votes, scores, speeds, time of races, dimensions and serial numbers. ([via](https://websso.wwu.edu/down/index.shtml))
+Use figures for ages, sums of money, time of day, percentages, house numerals, years, days of the month, degrees of temperature, proportions, votes, scores, speeds, time of races, dimensions and serial numbers. ([via](https://websso.wwu.edu/down/index.shtml))
 
 "Not available" and "not applicable" are abbreviated like this: N/A
 
