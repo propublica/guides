@@ -50,7 +50,7 @@ Use a scatterplot to show a correlation or lack thereof between two variables.
 
 Bubble charts are acceptable where the accurate perception of fine differences between the circles is not important (see Maps). Circles in bubble charts should vary in area and not diameter or radius.
 
-Avoid 3-D charts at all costs. Human have enough problem perceiving area accurately. Asking them to perceive 3-D volume makes matters worse.
+Avoid 3-D charts at all costs. Humans have enough problems perceiving area accurately. Asking them to perceive 3-D volume makes matters worse.
 
 Avoid donut charts at all costs.
 
