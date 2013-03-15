@@ -46,7 +46,9 @@ Use a stacked bar chart to show the relative values of categories and subcategor
 
 Use a line chart (sometimes called a fever chart) to show continuous variables such as time series.
 
-Use a scatterplot to show a correlation or lack thereof between two variables.
+Use a scatterplot to show a correlation (or lack thereof) between two variables.
+
+Use a treemap to show data that is structured into hierarchical categories or classifications. A treemap is good at showing the relationship of each variable to its class and each class to a whole. The classic example is the [stock market](http://www.smartmoney.com/map-of-the-market/). Stocks are classified into industries and in turn into a whole market.
 
 Bubble charts are acceptable where the accurate perception of fine differences between the circles is not important (see Maps). Circles in bubble charts should vary in area and not diameter or radius.
 
