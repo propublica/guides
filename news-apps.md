@@ -232,7 +232,7 @@ Only use "total" as an adjective when it's not clear what you're totaling. Never
 
 Use a treemap to show data that is structured into hierarchical categories or classifications. A treemap is good at showing the relationship of each variable to its class and each class to a whole. The classic example is the [stock market](http://www.smartmoney.com/map-of-the-market/). Stocks are classified into industries and in turn into a whole market.
 
-Complicated tree maps with many levels of classification should allow users to zoom in to each category and view the subdivisions within. If a treemap has only one zoom level, identifying information on categories and variables shown should be readable to the user immediately, and not hidden, for example, in a rollover.
+Complicated treemaps with many levels of classification should allow users to zoom in to each category and view the subdivisions within. If a treemap has only one zoom level, identifying information on categories and variables shown should be readable to the user immediately, and not hidden, for example, in a rollover.
 
 
 ## Updates
