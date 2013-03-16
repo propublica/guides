@@ -48,7 +48,7 @@ Use a line chart (sometimes called a fever chart) to show continuous variables s
 
 Use a scatterplot to show a correlation (or lack thereof) between two variables.
 
-Use a treemap to show data that is structured into hierarchical categories or classifications. A treemap is good at showing the relationship of each variable to its class and each class to a whole. The classic example is the [stock market](http://www.smartmoney.com/map-of-the-market/). Stocks are classified into industries and in turn into a whole market.
+Use a treemap to show data that is structured into hierarchical categories or classifications. A treemap is good at showing the relationship of each variable to its class and each class to a whole. The classic example is the [stock market](http://www.smartmoney.com/map-of-the-market/). Stocks are classified into industries and in turn into a whole market. Complicated tree maps with many levels of classification should allow users to zoom in to each category and view the subdivisions within. If a treemap has only one zoom level, identifying information on categories and variables shown should be readable to the user immediately, and not hidden, for example, in a rollover.
 
 Bubble charts are acceptable where the accurate perception of fine differences between the circles is not important (see Maps). Circles in bubble charts should vary in area and not diameter or radius.
 
