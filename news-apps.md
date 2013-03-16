@@ -48,8 +48,6 @@ Use a line chart (sometimes called a fever chart) to show continuous variables s
 
 Use a scatterplot to show a correlation (or lack thereof) between two variables.
 
-Use a treemap to show data that is structured into hierarchical categories or classifications. A treemap is good at showing the relationship of each variable to its class and each class to a whole. The classic example is the [stock market](http://www.smartmoney.com/map-of-the-market/). Stocks are classified into industries and in turn into a whole market. Complicated tree maps with many levels of classification should allow users to zoom in to each category and view the subdivisions within. If a treemap has only one zoom level, identifying information on categories and variables shown should be readable to the user immediately, and not hidden, for example, in a rollover.
-
 Bubble charts are acceptable where the accurate perception of fine differences between the circles is not important (see Maps). Circles in bubble charts should vary in area and not diameter or radius.
 
 Avoid 3-D charts at all costs. Humans have enough problem perceiving area accurately. Asking them to perceive 3-D volume makes matters worse.
@@ -59,6 +57,8 @@ Avoid donut charts at all costs.
 Don't show interpolated or predicted data without saying you're doing so.
 
 In annual trend data don't include partial years.
+
+See also: [treemaps](#treemaps)
 
 ## Colors
 
@@ -227,6 +227,13 @@ Put explanatory copy at the top of the first page of your app or graphic, under 
 ## Total
 
 Only use "total" as an adjective when it's not clear what you're totaling. Never use the redundant "total amount" -- just use "total."
+
+## Treemaps
+
+Use a treemap to show data that is structured into hierarchical categories or classifications. A treemap is good at showing the relationship of each variable to its class and each class to a whole. The classic example is the [stock market](http://www.smartmoney.com/map-of-the-market/). Stocks are classified into industries and in turn into a whole market.
+
+Complicated tree maps with many levels of classification should allow users to zoom in to each category and view the subdivisions within. If a treemap has only one zoom level, identifying information on categories and variables shown should be readable to the user immediately, and not hidden, for example, in a rollover.
+
 
 ## Updates
 
