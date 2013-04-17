@@ -146,7 +146,7 @@ Avoid bubble maps, which represent the rate of a phenomenon at different locatio
 
 ## Meta Tags
 
-Every page in an app should have a unique title tag, a unique meta-description tag and the correct [social media tags](social-tags.md) specific to that page.
+Every page in an app should have a unique title tag, a unique meta-description tag and the correct [social media tags](social-tags.html) specific to that page.
 
 <a name="versus"></a>
 ## News Applications vs. Graphics
