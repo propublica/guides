@@ -194,12 +194,18 @@ Use [AP abbreviations](http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviat
 
 We use the [nytimes-style gem](https://rubygems.org/gems/nytimes-style) to help us abbreviate states correctly.
 
-```
-//Bad: Practitioners in Golden, CO
-//Good: Practutioners in Golden, Colo.
+```javascript
+//Bad
+Practitioners in Golden, CO
 
-//Bad: 123 MAIN STREET, YOUNG AMERICA, MINN.
-//Good: 123 MAIN STREET, YOUNG AMERICA, MN
+//Good
+Practutioners in Golden, Colo.
+
+//Bad
+123 MAIN STREET, YOUNG AMERICA, MINN.
+
+//Good
+123 MAIN STREET, YOUNG AMERICA, MN
 ```
 
 
