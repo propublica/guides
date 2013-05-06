@@ -190,9 +190,18 @@ Use AP style when using numbers in copy. That is, spell out numbers under 10 exc
 
 ## States
 
-Use [AP abbreviations](http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations) for states and avoid postal abbreviations except when the space is so constrained that you have to use them.
+Use [AP abbreviations](http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations) for states and avoid postal abbreviations except when the space is so constrained that you have to use them, or when the abbreviation will appear in all-caps.
 
 We use the [nytimes-style gem](https://rubygems.org/gems/nytimes-style) to help us abbreviate states correctly.
+
+```
+//Bad: Practitioners in Golden, CO
+//Good: Practutioners in Golden, Colo.
+
+//Bad: 123 MAIN STREET, YOUNG AMERICA, MINN.
+//Good: 123 MAIN STREET, YOUNG AMERICA, MN
+```
+
 
 ## Sources
 
