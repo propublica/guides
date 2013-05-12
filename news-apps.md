@@ -14,6 +14,10 @@ The most important thing by far is to be accurate.
 
 A full discussion on how to be sure you're accurate is beyond the scope of this document. Read "[Bulletproofing your data-based stories](data-bulletproofing.md)." Now.
 
+## Asterisks
+
+Asterisks and footnotes are artifacts of print, and lead to confusion on screen. Use [hovers](#hovers) instead.
+
 ## Axes
 
 Always label axes except where the label would simply duplicate the headline or top matter.
@@ -101,6 +105,10 @@ Follow your existing house style on when to use en-dashes and em-dashes. If you 
 ## Entities
 
 Try to avoid using html entities. We're in the future -- use unicode.
+
+## Footnotes
+
+Use [hovers](#hovers) instead. (See [asterisks](#asterisks))
 
 ## Geocoding
 
