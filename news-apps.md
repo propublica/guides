@@ -90,17 +90,17 @@ When data is incorrect, place the correction language on every page that once sh
 
 When an app's data is refreshed and the corrected data has been removed or superceded, remove the correction language to avoid confusion.
 
-## Data: Singular or Plural?
-
-Singular. Say "the data is" and not "the data are," just as you say "bacon is delicious" not "bacon are delicious."
-
-This rule is not without controversy. The AP classifies data as a collective noun that takes the singular when treated as a unit but the plural when referring to individual items ("The data is sound," but "The data have been carefully collected.").
-
 ## Dashes
 
 Use spaces around en-dashes and em-dashes, and around double-hyphens when used in place of them. Browsers are really bad at typesetting lines properly when they contain words joined by a dash.
 
 Follow your existing house style on when to use en-dashes and em-dashes. If you don't have a style yet, it's probably safe just to use hyphens everywhere. If the idea of using hyphens instead of the proper dashes horrifies you, by all means do what your heart commands, though remember that you'll be working with data from sources that don't share your strong feelings, so maintaining your style consistently will take some doing.
+
+## Data: Singular or Plural?
+
+Singular. Say "this data is" and not "these data are," just as you say "this bacon is delicious" not "these bacon are delicious."
+
+This rule is not without controversy. The AP classifies data as a collective noun that takes the singular when treated as a unit but the plural when referring to individual items ("The data is sound," but "The data have been carefully collected.").
 
 ## Entities
 
