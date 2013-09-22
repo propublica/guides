@@ -22,7 +22,7 @@ _by Jennifer LaFleur, ProPublica_
 - Check with experts from different sides of the issue.
 - Find similar stories and study what they did.
 - Look at it. If you can actually physically go spot check records, do it.
-- Don’t forget the gut check. If someone just doesn’t seem right, it probably isn’t.
+- Don’t forget the gut check. If something just doesn’t seem right, it probably isn’t.
 - Beware of lurking variables
 - Come up with a standard naming convention for your files so you can stay organized. I don't recommend naming files "final" or even "super final."
 - If you think you’re in over your head, call on an expert to help.
