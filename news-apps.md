@@ -172,6 +172,10 @@ Document any methodology and present it to readers clearly. Post a link to it pr
 
 Use the appropriate currency symbols when showing currency. Avoid showing fractional currency like cents. In most cases, currency for multiple years should be adjusted to current year.
 
+If you are comparing currency (such as costs, revenues, etc.) across multiple years, you should adjust for inflation. Don't ever refer to an amount of money being a "record" based on historical data that is not adjusted for inflation.
+
+Always explain to readers whether and how you've adjusted currency figures. 
+
 ## Numbers
 
 The primary function of numbers in a news application or graphic is to help readers understand scale and order of magnitude, and compare against other numbers. Think of them more like words than like minutely precise coordinates (unless of course your numbers are literally coordinates).
@@ -179,6 +183,8 @@ The primary function of numbers in a news application or graphic is to help read
 Apply the following rules to numbers wherever they appear in your apps and graphics:
 
 Except where special precision is required, stick to whole numbers. Don't portray precision that doesn't really exist.
+
+When displaying numbers in a table, make them either right-aligned or decimal-aligned.
 
 Round numbers and never use 'ceiling' or 'floor' functions for floats. Be vigilant if your programming language does this by default.
 
