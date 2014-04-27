@@ -212,7 +212,7 @@ We use the [nytimes-style gem](https://rubygems.org/gems/nytimes-style) to help 
 //Bad
 Practitioners in Golden, CO
 //Good
-Practutioners in Golden, Colo.
+Practitioners in Golden, Colo.
 
 //Bad
 123 MAIN STREET, YOUNG AMERICA, MINN.
