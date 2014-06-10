@@ -92,7 +92,7 @@ When an app's data is refreshed and the corrected data has been removed or super
 
 ## Dashes
 
-Use spaces around en-dashes and em-dashes, and around double-hyphens when used in place of them. Browsers are really bad at typesetting lines properly when they contain words joined by a dash.
+When they're used in a sentence, put spaces around en-dashes and em-dashes, and around double-hyphens when used in place of them. Browsers are really bad at typesetting lines properly when they contain words joined by a dash.
 
 Follow your existing house style on when to use en-dashes and em-dashes. If you don't have a style yet, it's probably safe just to use hyphens everywhere. If the idea of using hyphens instead of the proper dashes horrifies you, by all means do what your heart commands, though remember that you'll be working with data from sources that don't share your strong feelings, so maintaining your style consistently will take some doing.
 
