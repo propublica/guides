@@ -174,7 +174,7 @@ Use the appropriate currency symbols when showing currency. Avoid showing fracti
 
 If you are comparing currency (such as costs, revenues, etc.) across multiple years, you should adjust for inflation. Don't ever refer to an amount of money being a "record" based on historical data that is not adjusted for inflation.
 
-Always explain to readers whether and how you've adjusted currency figures. 
+Always explain to readers whether and how you've adjusted currency figures.
 
 ## Numbers
 
@@ -257,7 +257,7 @@ Only use "total" as an adjective when it's not clear what you're totaling. Never
 
 ## Treemaps
 
-Use a treemap to show data that is structured into hierarchical categories or classifications. A treemap is good at showing the relationship of each variable to its class and each class to a whole. The classic example is the [stock market](http://www.smartmoney.com/map-of-the-market/). Stocks are classified into industries and in turn into a whole market.
+Use a treemap to show data that is structured into hierarchical categories or classifications. A treemap is good at showing the relationship of each variable to its class and each class to a whole. The classic example is the [stock market](http://www.bewitched.com/marketmap.html). Stocks are classified into industries and in turn into a whole market.
 
 Complicated treemaps with many levels of classification should allow users to zoom in to each category and view the subdivisions within. If a treemap has only one zoom level, identifying information on categories and variables shown should be readable to the user immediately, and not hidden, for example, in a rollover.
 
