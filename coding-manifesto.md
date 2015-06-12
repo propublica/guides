@@ -26,8 +26,6 @@ Early and often, check important platforms other than the one you develop on. As
 
 Some platforms require special attention:
 
-If an app doesn't work IE 8 and up, it is broken.
-
 If an app crashes a mobile device or doesn't work because it relies on hovers for basic functionality, it is broken.
 
 If an app isn't responsive or adaptive to multiple screen sizes, it might be broken. Sometimes tiny screens are too small.
