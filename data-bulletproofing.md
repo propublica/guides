@@ -71,17 +71,19 @@ _Russell Clemmings of the Fresno Bee on rechecking your data:_
 
 ## For More Information
 
-Numbers in the Newsroom: Using Math and Statistics in News by Sarah Cohen for  Investigative Reporters and Editors, Inc.
+Numbers in the Newsroom: Using Math and Statistics in News by Sarah Cohen for  Investigative Reporters and Editors, Inc. ([Amazon](https://store.ire.org/products/numbers-in-the-newsroom-using-math-and-statistics-in-news-second-edition-e-version), [IRE](https://store.ire.org/products/numbers-in-the-newsroom-using-math-and-statistics-in-news-second-edition-e-version), [Goodreads](https://www.goodreads.com/book/show/17825748-numbers-in-the-newsroom)).
 
-Precision Journalism by Philip Meyer. Indiana University Press, Bloomington. 4th Edition. 2002.
+Precision Journalism by Philip Meyer. Indiana University Press, Bloomington. 4th Edition. 2002. ([Amazon](https://www.amazon.com/Precision-Journalism-Reporters-Introduction-Science/dp/0742510883)).
 
-News and Numbers by Victor Cohn.  Iowa State University Press, Ames. 1989.
+News and Numbers by Victor Cohn.  Iowa State University Press, Ames. 1989. ([Amazon](https://www.amazon.com/News-Numbers-Writers-Guide-Statistics/dp/1405160969), [Google Books](https://books.google.com/books/about/News_and_Numbers.html?id=7Kx_0HnmyDcC)).
 
-How to Lie with Statistics by Darrell Huff.  W. W. Norton & Company, New York. 1954 (renewed 1984)
+How to Lie with Statistics by Darrell Huff.  W. W. Norton & Company, New York. 1954 (renewed 1984) ([PDF](http://www.horace.org/blog/wp-content/uploads/2012/05/How-to-Lie-With-Statistics-1954-Huff.pdf)).
 
-Innumeracy:  Mathematical Illiteracy and Its Consequences by John Allen Paulos. Vintage Books, New York. 1990.
+Innumeracy:  Mathematical Illiteracy and Its Consequences by John Allen Paulos. Vintage Books, New York. 1990. ([Amazon](https://www.amazon.com/Innumeracy-Mathematical-Illiteracy-Its-Consequences/dp/0809058405), [Goodreads](https://www.goodreads.com/book/show/186749.Innumeracy)).
 
-A Mathematician Reads the Newspaper by John Allen Paulos. Anchor Books, New York. 1995. (Also, check out the tape from Paulos keynote address at NICAR 2002 in Philadelphia)
+A Mathematician Reads the Newspaper by John Allen Paulos. Anchor Books, New York. 1995. ([Amazon](https://www.amazon.com/Mathematician-Reads-Newspaper-Allen-Paulos/dp/0465089992)).
+
+(Also, check out the tape from Paulos keynote address at NICAR 2002 in Philadelphia)
 
 IRE Resource Center: [www.ire.org](http://www.ire.org)
 
