@@ -198,7 +198,7 @@ For numbers with more than three digits, always separate each thousands place wi
 
 Use AP style when using numbers in copy. That is, spell out numbers under 10 except in the following circumstances:
 
-> Use figures for ages, sums of money, time of day, percentages, house numerals, years, days of the month, degrees of temperature, proportions, votes, scores, speeds, time of races, dimensions and serial numbers. ([via](https://websso.wwu.edu/down/index.shtml))
+> Use figures for ages, sums of money, time of day, percentages, house numerals, years, days of month, degrees of temperature, proportions, votes, scores, speeds, time of races, dimensions and serial numbers. ([via](https://chss.wwu.edu/files/Journalism/207%20AP%20Style%20Essentials.pdf))
 
 "Not available" and "not applicable" are abbreviated like this: N/A
 
