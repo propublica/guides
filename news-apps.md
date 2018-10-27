@@ -88,7 +88,7 @@ News apps and graphics should follow your newsroom's standard corrections policy
 
 When data is incorrect, place the correction language on every page that once showed the incorrect data point. That may mean that a correction will appear on thousands of pages.
 
-When an app's data is refreshed and the corrected data has been removed or superceded, remove the correction language to avoid confusion.
+When an app's data is refreshed and the corrected data has been removed or superseded, remove the correction language to avoid confusion.
 
 ## Dashes
 
