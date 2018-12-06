@@ -20,7 +20,14 @@ Asterisks and footnotes are artifacts of print, and lead to confusion on screen.
 
 ## Axes
 
-Always label axes except where the label would simply duplicate the headline or top matter.
+Charts should have well-labeled axes. 
+
+In a line chart that is meant to show change over time, try to label the beginning and end points instead of using tick marks on the y axis. 
+
+In bar charts, label individual bars instead of relying on y-axis tick marks unless size constraints make that impossible.
+
+Omit axis labels that simply duplicate the headline or top matter.
+
 
 ## Browsers
 
