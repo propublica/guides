@@ -22,7 +22,7 @@ Asterisks and footnotes are artifacts of print, and lead to confusion on screen.
 
 Charts should have well-labeled axes. 
 
-In a line chart that is meant to show change over time, try to label the beginning and end points instead of using tick marks on the y axis. 
+In a line chart that is meant to show change over time, label the beginning and end points instead of using tick marks on the y axis. 
 
 In bar charts, label individual bars instead of relying on y-axis tick marks unless size constraints make that impossible.
 
