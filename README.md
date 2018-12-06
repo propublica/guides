@@ -4,13 +4,11 @@
 
 1. [Intro: The Design and Structure of a News Application](design-structure.md)
 2. [Data Style Guide](news-apps.md)
-3. [Coding Manifesto](coding-manifesto.md)
-4. [Social Tagging Guide](social-tags.html)
-5. [Data Bulletproofing Guide](data-bulletproofing.md)
+3. [Data Bulletproofing Guide](data-bulletproofing.md)
 
 ## License
 
-These guides are copyright 2013 Pro Publica, Inc. and are licensed under a [Creative Commons BY-NC 3.0](http://creativecommons.org/licenses/by-nc/3.0/) license. You are free to share and to remix them, though not to use them commercially without permission.
+These guides are copyright 2018 Pro Publica, Inc. and are licensed under a [Creative Commons BY-NC 3.0](http://creativecommons.org/licenses/by-nc/3.0/) license. You are free to share and to remix them, though not to use them commercially without permission.
 
 ## Discuss
 
