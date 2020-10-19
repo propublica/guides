@@ -13,7 +13,7 @@ _by Jennifer LaFleur, ProPublica_
 
 ## Beyond Basic Checks
 
-- Keep a data notebook (or  computer file) and write down everything you do. 
+- Keep a data notebook (or  computer file) and write down everything you do. If you're using a notebook or md file you can document along with your code.
 - Know the source of the data.
 - Get similar data from another source.
 - Create a back-up copy of the database. 
