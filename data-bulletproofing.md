@@ -27,6 +27,7 @@ _by Jennifer LaFleur, ProPublica_
 - Come up with a standard naming convention for your files so you can stay organized. I don't recommend naming files "final" or even "super final."
 - If you think you’re in over your head, call on an expert to help.
 - Watch your language. It is very easy to write about a data finding in a way that makes it wrong. If you're not sure, ask.
+- If you are ranking data, take the margin of error into account because it could change rankings.
 
 ## Some Notes About Others’ Studies
 - Get the questionnaire and the methodology. If they won’t give it to you, that’s a red flag.
