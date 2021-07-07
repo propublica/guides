@@ -34,7 +34,7 @@ _by Jennifer LaFleur, ProPublica_
 - Beware of nonscientific methods: Web surveys, man on the street or other self-selection.
 - Know the sample size, which will give you the sampling error.
 - Again, know the source.
-- Account for margin of error  and non-response or “don’t know” when drawing conclusions.
+- Account for margin of error and non-response or “don’t know” when drawing conclusions.
 - If possible, run statistical tests on the data. What may look significant to you, may not be.
 - When reporting, avoid false precision. Saying 52.18 percent of people think “blah, blah, blah” is portraying an impossible accuracy to readers.
 - Put your numbers in perspective
@@ -70,6 +70,13 @@ _Russell Clemmings of the Fresno Bee on rechecking your data:_
 - Pull a random sample from your results and check them against the raw data.
 - Have someone who knows the data check your results before publication -- even the target of the story, if possible.
 - Double-check surprising results -- if citations spiked by 50 percent in one year, it could be a story or it could (more likely) be an error. 
+
+_Peter Harkins, formerly of the Washington Post on structuring data:_
+
+- Extract real data (choose the worst, noisiest stuff) to use as fixtures in automated tests and you'll know you haven't broken things as you go.
+- Don't model anything as many-to-many. Name the intermediate concept and give it two one-to-many associations. It will almost always want to accumulate more info in the future, and the cost of changing your model will be high.
+- Manually-entered data (especially intern-powered scraping) needs even more spot checks than programmatically-scraped data.
+- You can't communicate too much or too often about how you're extracting data with the journalists, sources, and experts who know the topic better than you do.
 
 ## For More Information
 
