@@ -2,7 +2,7 @@
 
 _by Scott Klein, ProPublica_
 
-This style guide comprises the typographic and technical best practices used by ProPublica's News Applications desk. Many rules here apply to our stories as well as our online graphics and news applications. It's not meant to be a design spec or a [coding style guide](coding-manifesto.md), though you should probably have both of those.
+This style guide comprises the typographic and technical best practices used by ProPublica's News Applications desk. Many rules here apply to our stories as well as our online graphics and news applications. It's not meant to be a design spec or a coding style guide, though you should probably have both of those.
 
 Using rules consistently can make your job easier and can prevent readers from having to struggle with new interfaces on every project, but remember that overdependence on rules can hamper progress, and that "a foolish consistency is the hobgoblin of little minds." News apps are a new and dynamic field and [forking these rules](README.md) for your own newsroom is a good thing. These rules are not an excuse to avoid change, and nothing in this document should be taken as a discouragement to be weird. This is just a set of decisions we've decided work really well for us, and that we try to stick to.
 
@@ -31,7 +31,7 @@ Omit axis labels that simply duplicate the headline or top matter.
 
 ## Browsers
 
-Support the current and prior major release of Chrome, Firefox, Internet Explorer and Safari on a rolling basis. If earlier releases represent more than 2.5% of our audience, continue to support them. This varies only slightly from [Google's Policy](http://googleappsupdates.blogspot.ca/2012/09/supporting-modern-browsers-internet.html).
+Support the current and prior major release of Chrome, Firefox, Internet Explorer and Safari on a rolling basis. If earlier releases represent more than 2.5% of our audience, continue to support them. This varies only slightly from [Google's Policy](https://workspaceupdates.googleblog.com/2012/09/supporting-modern-browsers-internet.html).
 
 If you must use a library or technology that has no cross-browser equivalent, provide graceful fallback on other supported browsers.
 
@@ -83,7 +83,7 @@ When showing variations in kind, alter hues.
 
 ## Color Breaks
 
-Pick color breaks carefully. Your data may not be best represented with equal-interval breaks. See what patterns emerge using a variety of algorithms, such as quantiles, [Jenks natural breaks](http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization), [head/tail breaks](https://sites.google.com/site/thepowerofcartography/head-tail-breaks), standard deviation, or even arbitrary breaks that might make sense for your data. For example, if your data is average commute time to work, breaks of 10, 20, 30, 45 and 60+ minutes might make the most sense for readers, even if your data is not distributed normally among those breaks.
+Pick color breaks carefully. Your data may not be best represented with equal-interval breaks. See what patterns emerge using a variety of algorithms, such as quantiles, [Jenks natural breaks](http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization), [head/tail breaks](https://en.wikipedia.org/wiki/Head/tail_breaks), standard deviation, or even arbitrary breaks that might make sense for your data. For example, if your data is average commute time to work, breaks of 10, 20, 30, 45 and 60+ minutes might make the most sense for readers, even if your data is not distributed normally among those breaks.
 
 Make sure your color breaks don't mislead readers about the distribution of your data. For instance, if your values are mostly clustered between 1 and 10 but includes a few items above 1,000, make sure that the color that represents 1,000 is more than just one shade different than the color that represents 10. The Daily Beast used a tool they made called [Histagram.me](http://mhkeller.github.io/histagram.me) to examine the distribution of datasets.
 
@@ -161,7 +161,7 @@ Avoid bubble maps, which represent the rate of a phenomenon at different locatio
 
 ## Meta Tags
 
-Every page in an app should have a unique title tag, a unique meta-description tag and the correct [social media tags](social-tags.html) specific to that page.
+Every page in an app should have a unique title tag, a unique meta-description tag and the correct social media tags specific to that page.
 
 <a name="versus"></a>
 ## News Applications vs. Graphics
@@ -205,7 +205,7 @@ For numbers with more than three digits, always separate each thousands place wi
 
 Use AP style when using numbers in copy. That is, spell out numbers under 10 except in the following circumstances:
 
-> Use figures for ages, sums of money, time of day, percentages, house numerals, years, days of month, degrees of temperature, proportions, votes, scores, speeds, time of races, dimensions and serial numbers. ([via](https://chss.wwu.edu/files/Journalism/207%20AP%20Style%20Essentials.pdf))
+> Use figures for ages, sums of money, time of day, percentages, house numerals, years, days of month, degrees of temperature, proportions, votes, scores, speeds, time of races, dimensions and serial numbers. ([via](https://chss.wwu.edu/files/2021-01/207%20AP%20Style%20Essentials.pdf))
 
 "Not available" and "not applicable" are abbreviated like this: N/A
 
