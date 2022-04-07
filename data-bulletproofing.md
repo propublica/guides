@@ -85,6 +85,6 @@ Innumeracy:  Mathematical Illiteracy and Its Consequences by John Allen Paulos. 
 
 A Mathematician Reads the Newspaper by John Allen Paulos. Anchor Books, New York. 1995. (Also, check out the tape from Paulos keynote address at NICAR 2002 in Philadelphia)
 
-IRE Resource Center: [www.ire.org](http://www.ire.org)
+IRE Resource Center: [www.ire.org](https://www.ire.org)
 
 _Danielle Cervantes contributed to this guide._
